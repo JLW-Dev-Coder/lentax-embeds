@@ -2,6 +2,82 @@
   text-align: center;
 }
 
+.mailui {
+  background: #0f1113;
+  border-radius: 16px;
+  color: #e8eaed;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+}
+
+.mailui__body {
+  padding: 14px;
+}
+
+.mailui__brand {
+  font-weight: 800;
+}
+
+.mailui__item {
+  background: #111315;
+  border: 1px solid rgba(255, 255, 255, .08);
+  border-radius: 14px;
+  margin: 0 0 12px 0;
+  padding: 12px;
+}
+
+.mailui__item--last {
+  margin-bottom: 0;
+}
+
+.mailui__snip {
+  color: rgba(232, 234, 237, .86);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.mailui__subhead {
+  color: rgba(232, 234, 237, .72);
+  font-weight: 800;
+}
+
+.mailui__subj {
+  font-size: 13px;
+  font-weight: 900;
+  margin: 0 0 6px 0;
+}
+
+.mailui__tag {
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 900;
+  margin-top: 10px;
+  padding: 6px 10px;
+}
+
+.mailui__tag--a {
+  background: #00e5ff;
+  color: #0b0d10;
+}
+
+.mailui__tag--c {
+  background: #ff5c8a;
+  color: #0b0d10;
+}
+
+.mailui__top {
+  align-items: center;
+  background: #121416;
+  border-bottom: 1px solid rgba(255, 255, 255, .10);
+  display: flex;
+  gap: 12px;
+  padding: 12px 14px;
+}
+
 .sheetui {
   background: #0f1113;
   border-radius: 16px;
