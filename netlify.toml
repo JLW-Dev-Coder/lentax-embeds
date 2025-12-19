@@ -1,0 +1,7 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/v1.0.1/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
